@@ -12,8 +12,13 @@ import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 
+/**	Finestra vuota che compare in attesa di richiesta di connessione.
+**/
 public class WaitingUI extends JFrame
 {
+	/**	Costruttore utilizzato dalla macchina server per comunicare con il client.
+	 *  @param port numero porta della socket del server addetto all'accettazione di richieste da parte del client.
+	**/
 	public WaitingUI(int port) throws IOException
 	{
 		super("SecureChat[Server] - Aspettando il client...");

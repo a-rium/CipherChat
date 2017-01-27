@@ -7,8 +7,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
 
+/**	Classe principale.
+**/
 public class Main
-{
+{	
+	/**	Funzione principale che tramite un popup che permette la scelta tra client o server.
+	 *  @param args parametri da riga di comando.
+	**/
 	public static void main(String[] args)
 	{
 		JRadioButton clientRadio = new JRadioButton("Client");

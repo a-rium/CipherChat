@@ -22,8 +22,12 @@ import javax.swing.border.TitledBorder;
 
 import utils.MaxLengthField;
 
+/**	Finestra di login tramite la quale l'utente inserisce i propri dati (username,ip e porta del server).
+**/
 public class LoginUI extends JFrame
 {
+	/**	Costruttore che inizializza il pannello e specifica la modilità con cui gestire gli eventi swing.
+	**/
 	public LoginUI()
 	{
 		super("SecureChat[Client] - Login");
